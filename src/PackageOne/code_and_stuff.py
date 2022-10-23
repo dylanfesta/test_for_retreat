@@ -12,5 +12,6 @@ def error_maybe():
   x = 1
   y = 2
   z = 'hello world'
-  raise Exception('Error!')
-
+  if x == 1:
+    raise Exception('Error!')
+  return  
