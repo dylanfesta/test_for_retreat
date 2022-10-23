@@ -15,21 +15,16 @@ one.error_maybe()
 N = 100
 # numpy array of size N filled with 4s
 
-v4 = np.full(N, 4) 
-
 # numpy array of gaussian random variables of size N
-vrand = np.random.randn(N)
 
-# if value in vrand is smaller than 0, swap it with v4
-vswap = np.where(vrand < 0, v4, vrand)
+# numpy array of longnormally distributed variables
+# of size N
 
-# plot vswap as a scatter
-plt.scatter(range(N), vswap)
+# if value in vrand is smaller than 0, swap it with vector4
+
+# plot vswapped as a scatter
+
 
 # %%
-
 # function that creates a numpy array of size N filled
 # with x values
-def make_array(N,x):
-  return np.full(N,x)
-
