@@ -1,0 +1,21 @@
+data/
+.vscode/
+tmp/
+*.pdf
+
+# Python stuff
+__pycache__
+*.py[cod]
+*$py.class
+.ipyb_checkpoints
+# Conda
+*.pyc
+*.egg-info
+.pytest_cache
+
+# Mac stuff
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
