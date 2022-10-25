@@ -9,7 +9,7 @@ def do_something_one():
 
 
 def error_maybe():
-  x = 1
+  x = 0
   y = 2
   z = 'hello world'
   if x == 1:
