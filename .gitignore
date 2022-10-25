@@ -9,6 +9,7 @@ __pycache__
 *$py.class
 .ipyb_checkpoints
 # Conda
+src/build
 *.pyc
 *.egg-info
 .pytest_cache
